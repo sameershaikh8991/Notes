@@ -25,7 +25,7 @@ const App = () =>{
   }
 
   const [searchText, setSearchText] = useState('');
-  const [darkMode, setDarkMode] = useState(false);
+  
 
   useEffect(() => {
       const savedItem = JSON.parse(localStorage.getItem('Notes-app-data'));
