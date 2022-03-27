@@ -1,5 +1,5 @@
 import { useState } from 'react'; 
-import { MdDeleteForever } from 'react-icons/md';
+
 
 const AddNote = ({handleAddNote}) =>{
 	const [noteText, setNoteText] = useState('');
